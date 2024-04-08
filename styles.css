@@ -1,0 +1,100 @@
+header{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+font-size: small;
+position: relative;
+
+}
+
+body{
+    background-color: #24252a;
+    color: aliceblue;
+}
+nav, ul,li {
+list-style: none;
+display: inline-block;
+padding: 0px 20px;
+}
+
+nav ul li a{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    }
+a{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+}
+a:hover{
+    color: rgb(34, 172, 218);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3, ease 0s;
+}
+button{
+padding: 9px 25px;
+background-color: rgba(34, 172, 218, 1);
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: all 0.3, ease 0s;
+color: aliceblue;
+}
+button:hover{
+    padding: 9px 25px;
+    background-color: rgba(34, 172, 218, 0,8);
+    }
+
+p{
+    padding: 0px 30px;
+font-size: 20px;
+font-family: sans-serif;
+padding: left 100px ;
+    }
+
+    h2{
+color:rgb(34, 172, 218);
+        padding: 0px 30px;
+        font-size: 25px;
+font-family: sans-serif;
+text-decoration: underline;
+    }
+
+    h3{
+        color: rgb(30, 132, 241);
+        padding: 0px 30px;
+        font-size: 20px;
+font-family: sans-serif;
+text-decoration: underline;
+    }
+
+
+
+h1{
+    color:rgb(34, 172, 218);
+        padding: 0px 30px;
+        font-size: 25px;
+font-family: sans-serif;
+text-decoration: underline;
+    }
+    img{
+        position: relative;
+        padding: 30px 41%;
+    }
+
+    footer{
+color: rgb(34, 172, 218);
+    text-align: center;
+    }
